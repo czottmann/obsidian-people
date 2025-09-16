@@ -1,0 +1,12 @@
+{
+  "livePreview": false,
+  "useTab": true,
+  "tabSize": 4,
+  "alwaysUpdateLinks": true,
+  "attachmentFolderPath": "attachments",
+  "spellcheck": false,
+  "propertiesInDocument": "source",
+  "strictLineBreaks": true,
+  "defaultViewMode": "preview",
+  "showUnsupportedFiles": true
+}

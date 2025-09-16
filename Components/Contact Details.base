@@ -1,0 +1,38 @@
+filters:
+  and:
+    - '!file.folder.contains("Templates")'
+    - file.path == this.file.path
+    - file.tags.contains("Person")
+formulas:
+  sync_contact: |
+    if(uid, link("barcuts://run-workflow?title=obsidian-sync-contact&input=" + uid, "Sync to Contacts"), null)
+  open_contact: |
+    if(uid, link("barcuts://run-workflow?title=obsidian-open-contact&input=" + uid, "Open in Contacts"), null)
+  call_contact: |
+    if(Phone, link("tel://" + Phone[0].replace(/\D+/g, ''), "Call"), null)
+  email_contact: |
+    if(Email, link("mailto:" + Email[0], "Send email"), null)
+properties:
+  formula.call_contact:
+    displayName: Call
+  formula.email_contact:
+    displayName: Email
+  formula.open_contact:
+    displayName: Open
+  formula.sync_contact:
+    displayName: Sync
+views:
+  - type: cards
+    name: Contact Photo
+    limit: 1
+    image: note.Photo
+    imageFit: contain
+    cardSize: 250
+  - type: table
+    name: Contact Actions
+    order:
+      - formula.open_contact
+      - formula.sync_contact
+      - formula.call_contact
+      - formula.email_contact
+    limit: 1

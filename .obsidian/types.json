@@ -1,0 +1,13 @@
+{
+  "types": {
+    "aliases": "aliases",
+    "cssclasses": "multitext",
+    "tags": "tags",
+    "Birthday": "date",
+    "Phone": "multitext",
+    "Website": "multitext",
+    "Email": "multitext",
+    "Photo": "text",
+    "Street Address": "multitext"
+  }
+}
