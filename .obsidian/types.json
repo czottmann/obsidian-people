@@ -8,6 +8,9 @@
     "Website": "multitext",
     "Email": "multitext",
     "Photo": "text",
-    "Street Address": "multitext"
+    "Street Address": "multitext",
+    "Mastodon": "multitext",
+    "Bluesky": "multitext",
+    "Bit of a coffee nerd": "checkbox"
   }
 }

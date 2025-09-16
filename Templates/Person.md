@@ -1,21 +1,26 @@
 ---
+# These property keys are required, even if you keep them empty!
 uid: "{{date:\\px}}"
 First Name:
 Middle Name:
 Last Name:
-Nickname:
 Company:
 Phone:
 Email:
 URL:
 Street Address:
 Photo:
+Birthday:
+
+# The properties below are technically "custom" and only exist
+# to give you an idea on how to further customize your contact
+# notes.
+tags:
+  - Person
+Nickname:
 Bluesky:
 Mastodon:
 Signal:
-Birthday:
-tags:
-  - Person
 ---
 
 ```dataviewjs

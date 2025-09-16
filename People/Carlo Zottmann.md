@@ -11,15 +11,27 @@ Email:
 URL:
   - https://actions.work/barcuts
   - https://c.zottmann.dev
+  - https://zottmann.org
 Street Address:
   - Twedter Feld 20, 24944 Flensburg, Germany
-Bluesky: https://bsky.app/profile/zottmann.dev
-Mastodon: https://norden.social/@czottmann
-Signal:
 Photo: Attachments/carlo.jpg
 Birthday: 1974-01-01
 tags:
   - Person
+  - Creator
+  - IndieDev
+Bluesky:
+  - https://bsky.app/profile/zottmann.dev
+  - https://bsky.app/profile/actions.work
+  - https://bsky.app/profile/anthroping.zottmann.dev
+  - https://bsky.app/profile/adss.zottmann.dev
+Mastodon:
+  - https://norden.social/@czottmann
+  - https://pkm.social/@actionsdotwork
+  - https://mastodon.social/@anthroping
+  - https://techhub.social/@AppleDeveloperSystemStatus
+  - https://mastodon.social/@pleasestop
+Loves coffee: true
 ---
 
 ```dataviewjs

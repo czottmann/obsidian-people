@@ -29,30 +29,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "People/Jane Doe.md",
+                "file": "INSTALLATION.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Jane Doe"
-            }
-          },
-          {
-            "id": "220e9a7d2eefb975",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "README.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "README"
+              "title": "INSTALLATION"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -95,8 +81,7 @@
               "title": "Search"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -166,10 +151,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "README.md"
+                "file": "INSTALLATION.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for README"
+              "title": "File properties for INSTALLATION"
             }
           },
           {
@@ -236,16 +221,17 @@
       "bases:Create new base": false
     }
   },
-  "active": "220e9a7d2eefb975",
+  "active": "59b78ab1c0353cbd",
   "lastOpenFiles": [
-    "Components/obsidian-people-fix-relationships.shortcut",
-    "People/Jane Doe.md",
-    "README.md",
+    "People/Carlo Zottmann.md",
     "INSTALLATION.md",
     "USAGE.md",
-    "TASKS.md",
-    "People/Carlo Zottmann.md",
     "Templates/Person.md",
+    "People/Jane Doe.md",
+    "LICENSE.md",
+    "README.md",
+    "Components/obsidian-people-fix-relationships.shortcut",
+    "TASKS.md",
     "Untitled.md",
     "Components/obsidian-people-sync.shortcut",
     "obsidian-people-sync.shortcut",
@@ -265,7 +251,6 @@
     "Untitled 2.md",
     "Untitled 1.md",
     "Welcome.md",
-    "Attachments",
-    "Templates"
+    "Attachments"
   ]
 }
