@@ -8,6 +8,10 @@ This is a proof of concept / MVP[^1]. I wanted to keep my contacts in an Obsidia
 
 [^1]: MVP: "minimally viable product"
 
+## Screenshot
+
+![[screenshot-vault.jpg]]
+
 ## Terminology
 
 Let's clearly define the terms used in this project description to minimize confusion.

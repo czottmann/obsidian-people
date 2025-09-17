@@ -3,7 +3,7 @@
 1. Create a new note anywhere in your vault, apply the [[Person]] template.
 2. In the new note, fill out the file properties, like "First Name", "Last Name" etc.
 
-Add new properties to the template as you see fit but please keep the required ones (see the [[Person]] template in edit mode).
+Add new properties to the template as you see fit but please keep the required ones (see [[#Property Types]] below).
 
 > [!important] Important
 > Make sure to keep the Dataview code block intact – it's responsible for rendering the buttons.
@@ -31,6 +31,8 @@ The properties below are technically "custom" and only exist to give you an idea
 - `Bluesky`: List
 - `Mastodon`: List
 - `Signal`: Text
+
+The required keys are sync'd to the ABE, custom ones aren't.
 
 ### Field-specific details
 
