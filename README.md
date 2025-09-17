@@ -21,13 +21,18 @@ Let's clearly define the terms used in this project description to minimize conf
 | Contact note       | An Obsidian note containing both structured contact info in its File Properties (front matter), such as first name, last name, photo, email addresses etc.   | CN      |
 
 
-## Scope of this project
+## Scope of this project / Ground rules
 
 1. **This vault is the source of truth.** It contains all the information and notes for **all** my contacts, one note per person.
 2. I **do not** want all of my contacts in my address book because there are personal ones, customers, clients, etc. – and not all of them are relevant in that context.
 3. I only want to sync a subset of the information contained in a CN to its related ABE: basically enough to identify callers, email senders, SMS senders etc. but not much more.
 4. An ABE contains a link back to its CN for easy access to the person's details.
 5. I can create/update it there with a button press directly from the vault, c/o Apple Shortcuts.
+
+**Minimal reliance on community plugins:** I've tried to not use any community plugins. Unfortunately, I wasn't able to access the vault name inside of a Bases doc – but since the vault name is required for the both linking & syncing, I've decided to employ to [Dataview](https://blacksmithgu.github.io/obsidian-dataview/).
+
+**Unique IDs:** The vault uses unique IDs ("UID") for all notes to make linking back from address book to the CN reliable. This means that the vault link in an ABE targets the CN by its UID, not by its title (as names may change). The UID creation is kept deliberately simple, it's just the letter "p" (for "person") + a Unix milliseconds timestamp. (In a real-life vault, I'd use a proper ULID or UUID, but as mentioned above, I've tried to keep the number of 3rd party plugins to a minimum.)
+
 
 ### Data flow
 
@@ -47,38 +52,16 @@ Let's clearly define the terms used in this project description to minimize conf
 - Phone numbers
 - URLs
 
+## Installation
 
-## Ground rules
+See [[INSTALLATION]].
 
-**Minimal reliance on community plugins:** I've tried to not use any community plugins. Unfortunately, I wasn't able to access the vault name inside of a Bases doc – but since the vault name is required for the both linking & syncing, I've decided to employ to [Dataview](https://blacksmithgu.github.io/obsidian-dataview/).
+## Usage
 
-**Unique IDs:** The vault uses unique IDs ("UID") for all notes to make linking back from address book to the CN reliable. This means that the vault link in an ABE targets the CN by its UID, not by its title (as names may change). The UID creation is kept deliberately simple, it's just the letter "p" (for "person") + a Unix milliseconds timestamp. (In a real-life vault, I'd use a proper ULID or UUID, but as mentioned above, I've tried to keep the number of 3rd party plugins to a minimum.)
-
-
-## Limitations & Troubleshooting
-
-### Photo in file properties must use full path
-
-The `Photo` value in the file properties **must** contain the full path to the picture, e.g. `Attachments/thispersondoesnotexist.com-1.jpg` instead of just `thispersondoesnotexist.com-1.jpg`.
-
-If it doesn't, the photo lookup in the Shortcuts workflow will fail.
-
-### Renaming the the vault will sever the relationships between CN and existing ABE
-
-Each ABE stores in its "Notes" field a "relationship marker", i.e. a short text containing both the vault name and the CN's UID, e.g. "\[\[CRM:p12345678]]". If the vault name changes, the lookup will use the *current* vault name, and won't find anything because the marker contains the *previous* vault name.
-
-So if you've just renamed the vault, use the `obsidian-people-fix-relationships.shortcut` to correct the relationship markers in **all** ABE; afterwards, use the `Sync to Apple Contacts` button on every relevant CN.
-
-
-## Dependencies
-
-- Obsidian 1.9+
-- [Actions For Obsidian](https://actions.work/actions-for-obsidian) 2025.1.2+ (macOS/iOS): it provides Shortcuts actions to interact with Obsidian vaults, notes, files
-- [BarCuts](https://actions.work/barcuts) (macOS): for running Shortcuts workflows directly from Obsidian
-
-The apps are also created [by me](#author). They are shareware, and come with a free trial period of 2+ weeks. They're buy-to-own, there are **no** subscriptions.
-
+See [[USAGE]].
 
 ## Author
 
-Carlo Zottmann, https://actions.work/ & https://c.zottmann.dev
+Carlo Zottmann, https://actions.work/ & https://c.zottmann.dev, <carlo@zottmann.dev>
+
+[[LICENSE|MIT License.]]

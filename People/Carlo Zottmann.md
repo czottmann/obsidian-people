@@ -34,10 +34,12 @@ Mastodon:
 Loves coffee: true
 ---
 
+%% START Action buttons %%
 ```dataviewjs
 await dv.view("Components/actions")
 ```
+%% END Action buttons %%
 
 ## Cool dude
 
-I think, not sure, probably, dunno
+I think. Not sure, probably …dunno.

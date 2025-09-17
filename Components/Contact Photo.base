@@ -28,11 +28,3 @@ views:
     image: note.Photo
     imageFit: contain
     cardSize: 250
-  - type: table
-    name: Contact Actions
-    order:
-      - formula.open_contact
-      - formula.sync_contact
-      - formula.call_contact
-      - formula.email_contact
-    limit: 1

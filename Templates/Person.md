@@ -23,6 +23,9 @@ Mastodon:
 Signal:
 ---
 
+%% START Action buttons %%
 ```dataviewjs
 await dv.view("Components/actions")
 ```
+%% END Action buttons %%
+
