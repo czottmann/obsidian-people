@@ -25,7 +25,7 @@ Let's clearly define the terms used in this project description to minimize conf
 2. I **do not** want all of my contacts in my address book because there are personal ones, customers, clients, etc. – and not all of them are relevant in that context.
 3. I only want to sync a subset of the information contained in a CN to its related ABE: basically enough to identify callers, email senders, SMS senders etc. but not much more.
 4. An ABE contains a link back to its CN for easy access to the person's details.
-5. I can create/update it there with a button press directly from the vault, c/o Apple Shortcuts.
+5. A CN contains a clickable button that creates/updates the ABE, c/o Apple Shortcuts.
 
 **Minimal reliance on community plugins:** I've tried to not use any community plugins. Unfortunately, I wasn't able to access the vault name inside of a Bases doc – but since the vault name is required for the both linking & syncing, I've decided to employ to [Dataview](https://obsidian.md/plugins?id=dataview). (And then I also installed [Mononote](https://obsidian.md/plugins?id=mononote) because I strongly dislike having the same note open in several tabs.)
 
