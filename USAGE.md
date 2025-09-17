@@ -8,13 +8,37 @@ Add new properties to the template as you see fit but please keep the required o
 > [!important] Important
 > Make sure to keep the Dataview code block intact – it's responsible for rendering the buttons.
 
-## Field-specific details
+## Property types
 
-### `uid`
+These property keys are required, even if you keep them empty:
+
+- `uid`: Text
+- `First Name`: Text
+- `Middle Name`: Text
+- `Last Name`: Text
+- `Company`: Text
+- `Phone`: List
+- `Email`: List
+- `URL`: List
+- `Street Address`: List
+- `Photo`: Text
+- `Birthday`: Date
+
+The properties below are technically "custom" and only exist to give you an idea on how to further customize your contact notes.
+
+- `tags`: Text
+- `Nickname`: Text
+- `Bluesky`: List
+- `Mastodon`: List
+- `Signal`: Text
+
+### Field-specific details
+
+#### `uid`
 
 Don't remove the `uid` field! It's used to make this whole thing work.
 
-### `Photo`
+#### `Photo`
 
 The photo needs to be referenced by its full path, e.g. `Attachments/carlo.jpg`. Just `carlo.jpg` will work in the preview but will **not** work in the sync.
 

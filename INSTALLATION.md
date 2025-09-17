@@ -26,7 +26,7 @@ That's it. Continue to [[USAGE]] or read section [[#Integrating with an existing
 ### 2.b. Integrating with an existing vault
 
 1. Ensure your existing vault is set up in [Actions For Obsidian](https://actions.work/actions-for-obsidian).
-2. Copy `Templates/Person.md` to your vault's templates folder.
+2. Copy `Templates/Person.md` to your vault's templates folder. **Make sure the property types are correctly set!** (See [[USAGE#Property Types]].)
 3. Copy `Components/Contact Photo.base` and `Components/actions.js` (Dataview logic) into a `Components/` folder in your root directory.
 
 If you already use a UID plugin like [Note UID Generator](https://github.com/Netajam/obsidian_note_uid_generator), remove the placeholder value from the [[Person]] template.
