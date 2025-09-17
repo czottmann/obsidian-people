@@ -11,6 +11,7 @@ Add new properties to the template as you see fit but please keep the required o
 ## Field-specific details
 
 ### `uid`
+
 Don't remove the `uid` field! It's used to make this whole thing work.
 
 ### `Photo`

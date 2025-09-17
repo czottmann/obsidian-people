@@ -8,7 +8,6 @@ This is a proof of concept / MVP[^1]. I wanted to keep my contacts in an Obsidia
 
 [^1]: MVP: "minimally viable product"
 
-
 ## Terminology
 
 Let's clearly define the terms used in this project description to minimize confusion.
@@ -19,7 +18,6 @@ Let's clearly define the terms used in this project description to minimize conf
 | Address book entry | An entry in the macOS Contacts app, which is created and updated by this vault's Shortcuts workflows, and contains a subset of its related **Contact Note**. | ABE     |
 | Contact            | A person described in a **Contact note**.                                                                                                                    |         |
 | Contact note       | An Obsidian note containing both structured contact info in its File Properties (front matter), such as first name, last name, photo, email addresses etc.   | CN      |
-
 
 ## Scope of this project / Ground rules
 
@@ -32,7 +30,6 @@ Let's clearly define the terms used in this project description to minimize conf
 **Minimal reliance on community plugins:** I've tried to not use any community plugins. Unfortunately, I wasn't able to access the vault name inside of a Bases doc – but since the vault name is required for the both linking & syncing, I've decided to employ to [Dataview](https://blacksmithgu.github.io/obsidian-dataview/).
 
 **Unique IDs:** The vault uses unique IDs ("UID") for all notes to make linking back from address book to the CN reliable. This means that the vault link in an ABE targets the CN by its UID, not by its title (as names may change). The UID creation is kept deliberately simple, it's just the letter "p" (for "person") + a Unix milliseconds timestamp. (In a real-life vault, I'd use a proper ULID or UUID, but as mentioned above, I've tried to keep the number of 3rd party plugins to a minimum.)
-
 
 ### Data flow
 

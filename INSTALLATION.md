@@ -6,7 +6,6 @@
 
 The apps are also created [[README#Author|by me]]. They are shareware, and come with a free trial period of 2+ weeks. They're buy-to-own, there are **no** subscriptions.
 
-
 ## Installation
 
 ### 1. General
@@ -23,7 +22,6 @@ The apps are also created [[README#Author|by me]]. They are shareware, and come 
 2. In AFO, link the new vault.
 
 That's it. Continue to [[USAGE]] or read section [[#Integrating with an existing vault]] for how to integrate the important parts into your own, existing vault.
-
 
 ### 2.b. Integrating with an existing vault
 
