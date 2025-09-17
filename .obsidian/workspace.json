@@ -65,8 +65,7 @@
               "title": "Carlo Zottmann"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -179,10 +178,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "People/Carlo Zottmann.md"
+                "file": "README.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for Carlo Zottmann"
+              "title": "File properties for README"
             }
           },
           {
@@ -286,16 +285,18 @@
       "bases:Create new base": false
     }
   },
-  "active": "1ea5ce115eac64c2",
+  "active": "c47b9488fd9d7d2c",
   "lastOpenFiles": [
-    "README.md",
-    "People/Carlo Zottmann.md",
-    "People/Jane Doe.md",
-    "USAGE.md",
-    "CLAUDE.md",
     "INSTALLATION.md",
-    "TASKS.md",
+    "USAGE.md",
+    "People/Jane Doe.md",
+    "People/Carlo Zottmann.md",
+    "README.md",
+    "Components/obsidian-people-actions.js",
+    "Components/obsidian-people-open.applescript",
     "Templates/Person.md",
+    "CLAUDE.md",
+    "TASKS.md",
     "LICENSE.md",
     "Components/obsidian-people-fix-relationships.shortcut",
     "Untitled.md",
@@ -312,11 +313,9 @@
     "Components/actions.js",
     "Components/Actions.js",
     "People/Untitled.md",
-    "People",
     "Attachments/CleanShot 2025-07-14 at 21.59.58@2x.png",
     "Untitled 2.md",
     "Untitled 1.md",
-    "Welcome.md",
-    "Attachments"
+    "Welcome.md"
   ]
 }

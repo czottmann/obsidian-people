@@ -25,7 +25,7 @@ Signal:
 
 %% START Action buttons %%
 ```dataviewjs
-await dv.view("Components/actions")
+await dv.view("Components/obsidian-people-actions")
 ```
 %% END Action buttons %%
 
