@@ -10,7 +10,7 @@ This is a proof of concept / MVP[^1]. I wanted to keep my contacts in an Obsidia
 
 ## Screenshot
 
-![Screenshot](Attachments/screenshot-vault.jpg)
+![Screenshot](Attachments/screenshot-vault-and-contacts.png)
 
 ## Terminology
 
