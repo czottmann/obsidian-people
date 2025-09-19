@@ -23,9 +23,10 @@ Mastodon:
 Signal:
 ---
 
-%% START Action buttons %%
 ```dataviewjs
 await dv.view("Components/obsidian-people-actions")
-```
-%% END Action buttons %%
 
+/* Uncomment the following line if you want to display the contact photo below the action buttons */
+// await dv.view("Components/obsidian-people-contact-photo")
+
+```

@@ -34,11 +34,15 @@ Mastodon:
 Loves coffee: true
 ---
 
-%% START Action buttons %%
 ```dataviewjs
 await dv.view("Components/obsidian-people-actions")
+
+/* Uncomment the following line if you want to display the contact photo below the action buttons */
+// await dv.view("Components/obsidian-people-contact-photo")
+
 ```
-%% END Action buttons %%
+
+The author of this vault.
 
 ## Cool dude
 

@@ -21,9 +21,10 @@ Mastodon:
 Signal:
 ---
 
-%% START Action buttons %%
 ```dataviewjs
 await dv.view("Components/obsidian-people-actions")
+await dv.view("Components/obsidian-people-contact-photo")
 ```
-%% END Action buttons %%
 
+> [!hint] Observe the magic!
+> ↑ This DataviewJS block also enables the conditional display of the contact photo. 
