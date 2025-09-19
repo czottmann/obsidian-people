@@ -59,7 +59,7 @@ See [[INSTALLATION]].
 
 ## Usage
 
-See [[USAGE]].
+See [[USAGE]]. For an overview of the relevant building blocks of this vault, check [[Components/README]] and [[Templates/README]].
 
 ## Author
 

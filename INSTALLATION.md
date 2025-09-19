@@ -27,13 +27,13 @@ That's it. Continue to [[USAGE]] or read section [[#Integrating with an existing
 
 1. Ensure your existing vault is set up in [Actions For Obsidian](https://actions.work/actions-for-obsidian).
 2. Copy `Templates/Person.md` to your vault's templates folder. **Make sure the property types are correctly set!** (See [[USAGE#Property Types]].)
-3. Copy `Components/Contact Photo.base` and `Components/actions.js` (Dataview logic) into a `Components/` folder in your root directory.
+3. Copy `Components/Contact Photo.base` and `Components/obsidian-people-actions.js` (Dataview logic) into a `Components/` folder in your root directory.
 
 If you already use a UID plugin like [Note UID Generator](https://github.com/Netajam/obsidian_note_uid_generator), remove the placeholder value from the [[Person]] template.
 
-If you want the contact photo in a sidebar, drag `Components/Contact Photo.base` into the sidebar to position it.
+If you want the contact photo in a sidebar, drag `Components/obsidian-people-contact-photo.base` into the sidebar to position it.
 
-If you want to add the contact photo to the [[Person]] template so new contact notes display the picture, embed the related Bases file:
+If you want to add the contact photo to the [[Person]] template so new contact notes display the picture, **either** un-comment the marked file in the DataviewJS block of the template, or embed the related Bases file:
 
 ```
 ![[Contact Photo.base]]
