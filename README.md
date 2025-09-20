@@ -55,14 +55,14 @@ Let's clearly define the terms used in this project description to minimize conf
 
 ## Installation
 
-See [[INSTALLATION]].
+See [INSTALLATION](INSTALLATION.md).
 
 ## Usage
 
-See [[USAGE]]. For an overview of the relevant building blocks of this vault, check [[Components/README]] and [[Templates/README]].
+See [USAGE](USAGE.md). For an overview of the relevant building blocks of this vault, check [Components/](Components/README.md) and [Templates/](Templates/README.md).
 
 ## Author
 
 Carlo Zottmann, https://actions.work/ & https://c.zottmann.dev, <carlo@zottmann.dev>
 
-[[LICENSE|MIT License.]]
+[MIT License.](LICENSE.md)
